@@ -1,11 +1,11 @@
 import pytest
 
 from MakeMyTrip import Utilites
-from MakeMyTrip.HomePageObjects import HomePage
+from MakeMyTrip.HomePageObjects import Test_HomePage
 
 
 @pytest.mark.usefixtures("launchbrowser")
-class Test_MMT(HomePage):
+class Test_MMT(Test_HomePage):
     global Logs
     Logs = Utilites.getlogs()
 
@@ -15,8 +15,7 @@ class Test_MMT(HomePage):
         self.driver.get(WebSiteUrl)
 
     def test_hindipopup(self):
-        HindiPopUp = HomePage(self.driver)
-        HindiMessage = HindiPopUp.AlertHindi()
+        HindiMessage = self.AlertHindi()
         # Utilites.explicitwait(self.driver,HindiMessage,10)
         print(HindiMessage.text)
 
