@@ -1,8 +1,9 @@
 import inspect
 import logging
-from telnetlib import EC
+# from telnetlib import EC
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -16,11 +17,11 @@ def getlogs():
     logger.setLevel(logging.DEBUG)
     return logger
 
-# def explicitwait(driver, elementxpath, time):
-#     try:
-#         # wait 10 seconds before looking for element
-#         element = WebDriverWait(driver, time).until(
-#             EC.presence_of_element_located((By.XPATH, str(elementxpath))
-#         ))
-#     finally:
-#         print("Ok done")
+def explicitwait(driver,text , time):
+
+    try:
+        wait = WebDriverWait(driver, time)
+        wait.until(EC.presence_of_element_located(By.LINK_TEXT, "NEW"))
+
+    finally:
+        print("Ok done")
