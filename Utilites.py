@@ -25,3 +25,6 @@ def explicitwait(driver,text , time):
 
     finally:
         print("Ok done")
+
+def webelementclick(driver,a):
+    driver.execute_script('arguments[0].click()',a)
