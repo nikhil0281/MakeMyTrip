@@ -31,8 +31,8 @@ class Test_MMT():
             HindiAlertClose = TestHomePageObj.CrossLink()
             Utilites.webelementclick(self.driver, HindiAlertClose)
             Logs.info("Hindi Alert Close")
-        except exception as e:
-            print(e)
+        except:
+            raise Exception("Some exception occoured")
 
 
 
@@ -50,6 +50,10 @@ class Test_MMT():
     def test_flighttab(self):
         FlightTab = Test_Flight(self.driver)
         FlightTab.OneWayRadioButton()
+        FlightTab.FlightBooking()
+
+    def test_print(self):
+        print("Hurryyyyyyyyyyyyyyyyyyy")
 
 
 

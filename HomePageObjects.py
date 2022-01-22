@@ -9,12 +9,15 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.support.wait import WebDriverWait
 
+from MakeMyTrip.AllElementsPath import Test_AllElementsPath
 
-class Test_HomePage:
-    AlertHindiXpath = (By.CLASS_NAME, "font20 latoBlack blackText appendBottom5 makeFlex hrtlCenter")
-    AlertCrossButton = (By.XPATH, "//span[@class='langCardClose']")
-    NavHeader = (By.XPATH,"//div[@class='loginModal displayBlock modalLogin dynHeight personal ']")
-    NavLink = (By.XPATH,"//ul[@class='makeFlex font12']/li/a/span/following-sibling::span")
+
+class Test_HomePage(Test_AllElementsPath):
+    AlertHindiXpath = Test_AllElementsPath.AlertHindiXpath
+    AlertCrossButton = Test_AllElementsPath.AlertCrossButton
+    NavHeader = Test_AllElementsPath.NavHeader
+    NavLink = Test_AllElementsPath.NavLink
+    Flight_From_City = Test_AllElementsPath.Flight_From_Keyword
 
     def __init__(self,driver):
         self.driver = driver
@@ -30,3 +33,19 @@ class Test_HomePage:
 
     def NavigationLinks(self):
         return  self.driver.find_elements(*Test_HomePage.NavLink)
+
+    def FlightFrom(self):
+        return self.driver.find_element(*Test_HomePage.Flight_From_City)
+
+    def FlightTo(self):
+        return self.driver.find_element(*self.Flight_To_City)
+
+    def FlightFromInputBox(self):
+        return self.driver.find_element(*self.Flight_From_City_Text_Box)
+
+    def FlightToInputBox(self):
+        return self.driver.find_element(*self.Flight_To_City_Text_Box)
+
+
+
+
