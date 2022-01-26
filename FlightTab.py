@@ -29,7 +29,7 @@ class Test_Flight(Test_AllElementsPath):
             Logs.info("One Way Radio Button is default selected")
             flightfrom = self.driver.find_element(By.XPATH,"//span[contains(text(),'From')]")
             Logs.info("Flight " + str(flightfrom.text) + " section is appearing")
-            flightto = self.driver.find_element(By.XPATH, "//span[contains(text(),'Top')]")
+            flightto = self.driver.find_element(By.XPATH, "//span[contains(text(),'To')]")
             Logs.info("Flight " + str(flightto.text) + " section is appearing")
 
 
@@ -46,9 +46,7 @@ class Test_Flight(Test_AllElementsPath):
             time.sleep(1)
             CitySelect = self.driver.find_element_by_xpath("//p[contains(text(),'New Delhi, India')]")
             Utilites.webelementclick(self.driver, CitySelect)
-            print("#########")
             CityValue = self.driver.find_element_by_xpath("//input[@id='fromCity']").get_attribute("value")
-            print("@@@@@@@@@")
             if str(CityValue) == "New Delhi":
                 Logs.info(str(CityValue) + " is selected")
         except Exception as e:
@@ -58,7 +56,7 @@ class Test_Flight(Test_AllElementsPath):
             FlightToInput = TestHomePageObj.FlightTo()
             Utilites.webelementclick(self.driver, FlightToInput)
             time.sleep(2)
-            TestHomePageObj.FlightFromInputBox().send_keys("Mumbai")
+            TestHomePageObj.FlightToInputBox().send_keys("Mumbai")
             time.sleep(1)
             CitySelect1 = self.driver.find_element_by_xpath("//p[contains(text(),'Mumbai, India')]")
             Utilites.webelementclick(self.driver, CitySelect1)
@@ -66,7 +64,18 @@ class Test_Flight(Test_AllElementsPath):
             if str(CityValue1) == "Mumbai":
                 Logs.info(str(CityValue1) + " is selected")
             Logs.info(str(CityValue1) + " is selected")
+            SearchButtonLink = TestHomePageObj.SearchButton()
+            Utilites.webelementclick(self.driver, SearchButtonLink)
         except Exception as e:
             raise Exception(e)
+        time.sleep(3)
+        SearchURL = Utilites.CurrentURL(self.driver)
 
+        if "search" in SearchURL:
+            Logs.info("User routed on search results page")
+            FlightResults = TestHomePageObj.FlightSearch()
+            if len(FlightResults) == 0:
+                Logs.error("Flights : No results searched ")
+            else:
+                Logs.info(str(len(FlightResults)) + " Flights found ")
 

@@ -28,3 +28,7 @@ def explicitwait(driver,text , time):
 
 def webelementclick(driver,a):
     driver.execute_script('arguments[0].click()',a)
+
+def CurrentURL(driver):
+    CurrentURl = driver.current_url
+    return CurrentURl

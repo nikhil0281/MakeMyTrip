@@ -2,6 +2,10 @@ import pytest
 from selenium import webdriver
 import time
 
+from MakeMyTrip import Utilites
+from MakeMyTrip.AllElementsPath import Test_AllElementsPath
+
+
 def pytest_addoption(parser):
     parser.addoption("--browser_name", action="store", default="chrome")
     parser.addoption("--url_value", action="store", default="dv")
@@ -27,12 +31,12 @@ def launchbrowser(request):
         driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe", options=FireFoxOptions)
     else:
         print("IE is not installed")
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(20)
 
 
     request.cls.driver = driver
-    yield
-    driver.close()
+    # yield
+    # driver.close()
 
 @pytest.fixture()
 def WebSiteUrl():
@@ -45,3 +49,4 @@ def WebSiteUrl():
     else:
             url = "https://yahoo.com"
     return url
+

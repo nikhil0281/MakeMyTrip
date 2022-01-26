@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.support.wait import WebDriverWait
 
+from MakeMyTrip import Utilites
 from MakeMyTrip.AllElementsPath import Test_AllElementsPath
 
 
@@ -18,6 +19,8 @@ class Test_HomePage(Test_AllElementsPath):
     NavHeader = Test_AllElementsPath.NavHeader
     NavLink = Test_AllElementsPath.NavLink
     Flight_From_City = Test_AllElementsPath.Flight_From_Keyword
+    MMTLogo = Test_AllElementsPath.MMTLogo_Keyword
+    Activities = Test_AllElementsPath.Activity_Tab_Keyword
 
     def __init__(self,driver):
         self.driver = driver
@@ -45,6 +48,24 @@ class Test_HomePage(Test_AllElementsPath):
 
     def FlightToInputBox(self):
         return self.driver.find_element(*self.Flight_To_City_Text_Box)
+
+    def SearchButton(self):
+        return self.driver.find_element(*self.Search_Button_Keyword)
+
+    def FlightSearch(self):
+        return self.driver.find_elements(*self.Flight_Search_Results_Keyword)
+
+    def MMTLogoClick(self):
+        return self.driver.find_element(*self.MMTLogo)
+
+    def ActivitiesTab(self):
+        return self.driver.find_element(*self.Activities)
+
+    def ActivitiesMore(self):
+        return self.driver.find_element(*self.Activity_More_keyword)
+
+    def ActivitesList(self):
+        return self.driver.find_elements(*self.Activity_List_Keyword)
 
 
 

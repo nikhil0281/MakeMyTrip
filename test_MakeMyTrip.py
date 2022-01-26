@@ -4,6 +4,7 @@ from logging import exception
 import pytest
 
 from MakeMyTrip import Utilites
+from MakeMyTrip.Actvities import Test_Activites
 from MakeMyTrip.FlightTab import Test_Flight
 from MakeMyTrip.HomePageObjects import Test_HomePage
 
@@ -51,6 +52,10 @@ class Test_MMT():
         FlightTab = Test_Flight(self.driver)
         FlightTab.OneWayRadioButton()
         FlightTab.FlightBooking()
+
+    def test_activite(self):
+        ActivitesTab = Test_Activites(self.driver)
+        ActivitesTab.Activites()
 
     def test_print(self):
         print("Hurryyyyyyyyyyyyyyyyyyy")
