@@ -58,7 +58,7 @@ class Test_MMT():
         ActivitesTab.Activites()
 
     def test_print(self):
-        print("Hurryyyyyyyyyyyyyyyyyyy")
+        print("Hurryyyyyyyyyyyyyyyyyyyyyyy")
 
 
 

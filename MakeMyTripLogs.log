@@ -623,3 +623,254 @@
 2022-01-26 02:12:31,657 :ERROR :Test_Activites : Not found in list
 2022-01-26 02:12:31,673 :INFO :Test_Activites :
 2022-01-26 02:12:31,726 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:15:59,192 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:16:19,147 :INFO :Test_MMT :User details section Close
+2022-01-26 20:16:20,266 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:16:21,628 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:16:22,447 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:16:22,824 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:16:23,239 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:16:23,703 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:16:24,137 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:16:24,811 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:16:25,003 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:16:25,237 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:16:25,399 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:16:25,399 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:16:28,111 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-01-26 20:16:28,143 :INFO :Test_Flight :Flight FROM section is appearing
+2022-01-26 20:16:28,174 :INFO :Test_Flight :Flight TO section is appearing
+2022-01-26 20:16:30,711 :INFO :Test_Flight :New Delhi is selected
+2022-01-26 20:16:30,711 :INFO :Test_Flight :Verifying flight TO drop down....
+2022-01-26 20:16:34,010 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 20:16:34,010 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 20:17:17,443 :INFO :Test_Flight :User routed on search results page
+2022-01-26 20:17:17,474 :INFO :Test_Flight :22 Flights found 
+2022-01-26 20:17:24,885 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:17:26,114 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:17:26,292 :INFO :Test_Activites :
+2022-01-26 20:17:26,552 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:17:26,561 :INFO :Test_Activites :
+2022-01-26 20:17:26,622 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:17:26,645 :INFO :Test_Activites :
+2022-01-26 20:17:26,708 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:17:26,708 :INFO :Test_Activites :
+2022-01-26 20:17:26,772 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:17:26,788 :INFO :Test_Activites :
+2022-01-26 20:17:26,845 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:17:26,860 :INFO :Test_Activites :
+2022-01-26 20:17:26,923 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:28:50,957 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:29:09,296 :INFO :Test_MMT :User details section Close
+2022-01-26 20:29:10,425 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:29:10,774 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:29:11,041 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:29:11,456 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:29:11,682 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:29:12,248 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:29:12,519 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:29:12,734 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:29:12,896 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:29:13,044 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:29:13,189 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:29:13,189 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:29:15,813 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-01-26 20:29:15,844 :INFO :Test_Flight :Flight FROM section is appearing
+2022-01-26 20:29:15,860 :INFO :Test_Flight :Flight TO section is appearing
+2022-01-26 20:30:00,533 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:30:02,738 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:38:01,523 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:38:17,883 :INFO :Test_MMT :User details section Close
+2022-01-26 20:38:19,000 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:38:19,350 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:38:19,839 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:38:20,160 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:38:20,421 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:38:21,029 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:38:21,318 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:38:21,715 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:38:21,958 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:38:22,155 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:38:22,308 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:38:22,308 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:38:28,081 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:38:28,870 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:38:28,894 :INFO :Test_Activites :[<selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="acbdcc15-41bc-4c8a-af97-1a3d5dfb28d8")>, <selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="f4ed9b1f-2862-432b-b1d7-24e6146cd7b3")>, <selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="d09a401d-40e8-46c4-b47e-8dab835bff60")>, <selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="a731c4fb-928c-487b-a857-e8863ec4f302")>, <selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="46314ca0-7d20-4452-bcc9-9b2d90fd139d")>, <selenium.webdriver.remote.webelement.WebElement (session="b3151fe7c70396e5e3aeeec238103d16", element="ca435443-673c-4887-8cca-6393e7c3cf48")>]
+2022-01-26 20:38:28,912 :INFO :Test_Activites :
+2022-01-26 20:38:28,986 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:38:29,002 :INFO :Test_Activites :
+2022-01-26 20:38:29,069 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:38:29,085 :INFO :Test_Activites :
+2022-01-26 20:38:29,204 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:38:29,220 :INFO :Test_Activites :
+2022-01-26 20:38:29,284 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:38:29,300 :INFO :Test_Activites :
+2022-01-26 20:38:29,510 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:38:29,521 :INFO :Test_Activites :
+2022-01-26 20:38:29,583 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:39:51,727 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:40:24,817 :INFO :Test_MMT :User details section Close
+2022-01-26 20:40:25,924 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:40:26,298 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:40:26,514 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:40:26,777 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:40:26,975 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:40:27,300 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:40:27,644 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:40:27,885 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:40:28,073 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:40:28,273 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:40:28,472 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:40:28,472 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:40:34,931 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:40:35,844 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:40:35,952 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:40:36,243 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:40:36,320 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:40:36,405 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:40:36,467 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:40:36,536 :ERROR :Test_Activites : Not found in list
+2022-01-26 20:48:58,224 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:49:20,037 :INFO :Test_MMT :User details section Close
+2022-01-26 20:49:21,171 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:49:21,601 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:49:22,049 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:49:22,361 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:49:22,925 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:49:23,309 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:49:23,540 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:49:23,747 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:49:23,916 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:49:24,074 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:49:24,265 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:49:24,265 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:49:30,730 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:49:33,638 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:51:29,584 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:51:43,672 :INFO :Test_MMT :User details section Close
+2022-01-26 20:51:44,771 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:51:45,091 :INFO :Test_MMT :Flights link clicked
+2022-01-26 20:51:45,474 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 20:51:45,722 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 20:51:45,997 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 20:51:46,589 :INFO :Test_MMT :Trains link clicked
+2022-01-26 20:51:46,837 :INFO :Test_MMT :Buses link clicked
+2022-01-26 20:51:47,080 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 20:51:47,244 :INFO :Test_MMT :Visa link clicked
+2022-01-26 20:51:47,396 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 20:51:47,555 :INFO :Test_MMT :Activities link clicked
+2022-01-26 20:51:47,555 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 20:51:54,786 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:51:55,188 :INFO :Test_Activites :Activity More link exist
+2022-01-26 20:57:52,784 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 20:58:08,807 :INFO :Test_MMT :User details section Close
+2022-01-26 20:58:09,913 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 20:58:17,236 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 20:58:18,345 :INFO :Test_Activites :Activity More link exist
+2022-01-26 21:09:12,797 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 21:09:34,086 :INFO :Test_MMT :User details section Close
+2022-01-26 21:09:35,196 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 21:09:41,780 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 21:09:44,601 :INFO :Test_Activites :Activity More link exist
+2022-01-26 21:35:20,599 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 21:35:56,720 :INFO :Test_MMT :User details section Close
+2022-01-26 21:35:57,829 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 21:36:04,974 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 21:36:13,373 :INFO :Test_Activites :Activity More link exist
+2022-01-26 21:38:55,082 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 21:39:12,545 :INFO :Test_MMT :User details section Close
+2022-01-26 21:39:13,664 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 21:39:19,853 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 21:39:21,161 :INFO :Test_Activites :Activity More link exist
+2022-01-26 21:41:47,120 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 21:42:00,806 :INFO :Test_MMT :User details section Close
+2022-01-26 21:42:01,962 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 21:42:07,188 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 21:42:08,296 :INFO :Test_Activites :Activity More link exist
+2022-01-26 21:43:57,617 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 21:44:19,320 :INFO :Test_MMT :User details section Close
+2022-01-26 21:44:20,422 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 21:44:27,487 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 21:44:28,696 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:03:05,959 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:03:31,853 :INFO :Test_MMT :User details section Close
+2022-01-26 22:03:33,034 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:03:41,068 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:03:42,361 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:05:26,494 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:05:48,280 :INFO :Test_MMT :User details section Close
+2022-01-26 22:05:49,420 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:05:55,209 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:05:56,451 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:08:13,516 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:08:27,296 :INFO :Test_MMT :User details section Close
+2022-01-26 22:08:28,453 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:08:34,934 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:08:36,520 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:10:19,977 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:10:40,787 :INFO :Test_MMT :User details section Close
+2022-01-26 22:10:41,939 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:10:48,116 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:10:49,482 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:14:43,910 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:15:07,799 :INFO :Test_MMT :User details section Close
+2022-01-26 22:15:08,934 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:15:09,215 :INFO :Test_MMT :Flights link clicked
+2022-01-26 22:15:09,732 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 22:15:09,972 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 22:15:10,170 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 22:15:11,154 :INFO :Test_MMT :Trains link clicked
+2022-01-26 22:15:11,398 :INFO :Test_MMT :Buses link clicked
+2022-01-26 22:15:11,575 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 22:15:11,824 :INFO :Test_MMT :Visa link clicked
+2022-01-26 22:15:12,003 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 22:15:12,145 :INFO :Test_MMT :Activities link clicked
+2022-01-26 22:15:12,145 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 22:15:14,765 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-01-26 22:15:14,812 :INFO :Test_Flight :Flight FROM section is appearing
+2022-01-26 22:15:14,843 :INFO :Test_Flight :Flight TO section is appearing
+2022-01-26 22:15:17,654 :INFO :Test_Flight :New Delhi is selected
+2022-01-26 22:15:17,655 :INFO :Test_Flight :Verifying flight TO drop down....
+2022-01-26 22:15:20,987 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 22:15:20,987 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 22:15:59,695 :INFO :Test_Flight :User routed on search results page
+2022-01-26 22:15:59,714 :INFO :Test_Flight :22 Flights found 
+2022-01-26 22:16:03,302 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:16:04,319 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:16:04,820 :INFO :Test_Activites :Charter Flights Exist in drop down
+2022-01-26 22:16:04,820 :INFO :Test_Activites :Activities Exist in drop down
+2022-01-26 22:16:04,820 :INFO :Test_Activites :Trip Ideas Exist in drop down
+2022-01-26 22:16:04,820 :INFO :Test_Activites :Giftcards Exist in drop down
+2022-01-26 22:16:04,820 :INFO :Test_Activites :Nearby Getaways Exist in drop down
+2022-01-26 22:16:04,821 :ERROR :Test_Activites :Trip Money Not exist in drop down
+2022-01-26 22:18:30,230 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-01-26 22:18:42,007 :INFO :Test_MMT :User details section Close
+2022-01-26 22:18:43,130 :INFO :Test_MMT :Hindi Alert Close
+2022-01-26 22:18:43,397 :INFO :Test_MMT :Flights link clicked
+2022-01-26 22:18:43,631 :INFO :Test_MMT :Hotels link clicked
+2022-01-26 22:18:43,805 :INFO :Test_MMT :Homestays link clicked
+2022-01-26 22:18:43,936 :INFO :Test_MMT :Holiday Packages link clicked
+2022-01-26 22:18:44,062 :INFO :Test_MMT :Trains link clicked
+2022-01-26 22:18:44,203 :INFO :Test_MMT :Buses link clicked
+2022-01-26 22:18:44,350 :INFO :Test_MMT :Cabs link clicked
+2022-01-26 22:18:44,503 :INFO :Test_MMT :Visa link clicked
+2022-01-26 22:18:44,638 :INFO :Test_MMT :Charter Flights link clicked
+2022-01-26 22:18:44,768 :INFO :Test_MMT :Activities link clicked
+2022-01-26 22:18:44,768 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-01-26 22:18:47,274 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-01-26 22:18:47,307 :INFO :Test_Flight :Flight FROM section is appearing
+2022-01-26 22:18:47,342 :INFO :Test_Flight :Flight TO section is appearing
+2022-01-26 22:18:49,578 :INFO :Test_Flight :New Delhi is selected
+2022-01-26 22:18:49,578 :INFO :Test_Flight :Verifying flight TO drop down....
+2022-01-26 22:18:52,938 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 22:18:52,939 :INFO :Test_Flight :Mumbai is selected
+2022-01-26 22:19:08,520 :INFO :Test_Flight :User routed on search results page
+2022-01-26 22:19:08,551 :INFO :Test_Flight :22 Flights found 
+2022-01-26 22:19:14,900 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-01-26 22:19:16,035 :INFO :Test_Activites :Activity More link exist
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Charter Flights Exist in drop down
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Activities Exist in drop down
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Trip Ideas Exist in drop down
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Giftcards Exist in drop down
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Nearby Getaways Exist in drop down
+2022-01-26 22:19:16,572 :INFO :Test_Activites :Trip Money Exist in drop down

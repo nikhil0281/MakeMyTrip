@@ -1,6 +1,7 @@
 import time
 from logging import exception
 
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from MakeMyTrip import Utilites
 from MakeMyTrip.AllElementsPath import Test_AllElementsPath
@@ -9,7 +10,9 @@ from MakeMyTrip.HomePageObjects import Test_HomePage
 
 class Test_Activites(Test_AllElementsPath):
     global Logs
+    global MoreActivitesText
     Logs = Utilites.getlogs()
+    MoreActivitesText = []
 
     def __init__(self, driver):
         self.driver = driver
@@ -29,27 +32,29 @@ class Test_Activites(Test_AllElementsPath):
             try:
                 assert ActivityMoreLink
                 Logs.info("Activity More link exist")
-                MoreActivitesList = TestHomePageObj.ActivitesList()
-                for i in MoreActivitesList:
-                    Logs.info(str(i.text))
-                    if str(i.text) == "Charter Flights":
-                        Logs.info(str(i.text) + " exist in list")
-                    elif str(i.text) == "Activities":
-                        Logs.info(str(i.text) + " exist in list")
-                    elif str(i.text) == "Trip Ideas":
-                        Logs.info(str(i.text) + " exist in list")
-                    elif str(i.text) == "Giftcards":
-                        Logs.info(str(i.text) + " exist in list")
-                    elif str(i.text) == "Nearby Getaways":
-                        Logs.info(str(i.text) + " exist in list")
-                    elif str(i.text) == "Trip Money":
-                        Logs.info(str(i.text) + " exist in list")
-                    else:
-                        Logs.error(str(i.text) + " Not found in list")
+                a = ActionChains(self.driver)
+                a.move_to_element(ActivityMoreLink).perform()
+                MoreActivitesWebElementList = TestHomePageObj.ActivitesList()
+                for ActivitesText in MoreActivitesWebElementList:
+                    MoreActivitesText.append(ActivitesText.text)
+                LISTOFALLACTIVITES = self.ListOfActivites()
+                j = 0
+                for MAT in MoreActivitesText:
+                    try:
+                        assert MAT ==  LISTOFALLACTIVITES[j]
+                        Logs.info(str(MAT) + " Exist in drop down")
+                    except Exception as e:
+                        Logs.error(str(MAT) + " Not exist in drop down")
+                        raise Exception(e)
+                    j = j+1
 
             except AssertionError:
                 Logs.error("Activity link doesn't exist")
 
         except Exception as e:
             raise Exception(e)
+
+    def ListOfActivites(self):
+        listofact = ["Charter Flights", "Activities", "Trip Ideas", "Giftcards", "Nearby Getaways", "Trip Money"]
+        return listofact
 
