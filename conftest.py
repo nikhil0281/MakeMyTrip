@@ -1,3 +1,5 @@
+
+
 import pytest
 from selenium import webdriver
 import time
@@ -13,7 +15,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="class")
 def launchbrowser(request):
-    a = "chrome"
+    # a = "chrome"
     global driver
     browser_name = request.config.getoption("browser_name")
     ChromeOptions = webdriver.ChromeOptions()
@@ -21,12 +23,12 @@ def launchbrowser(request):
     FireFoxOptions = webdriver.FirefoxOptions()
     FireFoxOptions.add_argument('--start-maximized')
     # ChromeOptions.add_argument('--headless')
-    if a == "chrome":
+    if browser_name == "chrome":
         (time.localtime())
         print("Chrome is launching....")
         driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe", options=ChromeOptions)
 
-    elif a == "firefox":
+    elif browser_name == "firefox":
         print("firefox is launching....")
         driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe", options=FireFoxOptions)
     else:
@@ -39,9 +41,9 @@ def launchbrowser(request):
     # driver.close()
 
 @pytest.fixture()
-def WebSiteUrl():
-    # LifeCycle = request.config.getoption("url_value")
-    LifeCycle = "dv"
+def WebSiteUrl(request):
+    LifeCycle = request.config.getoption("url_value")
+    # LifeCycle = "dv"
     if LifeCycle == "dv":
             url = "https://www.makemytrip.com/"
     elif LifeCycle == "qa":
