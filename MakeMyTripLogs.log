@@ -1154,3 +1154,112 @@
 2022-02-19 13:56:34,562 :INFO :Test_Activites :Giftcards Exist in drop down
 2022-02-19 13:56:34,563 :INFO :Test_Activites :Nearby Getaways Exist in drop down
 2022-02-19 13:56:34,563 :INFO :Test_Activites :Trip Money Exist in drop down
+2022-02-20 23:23:54,814 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-20 23:24:16,775 :INFO :Test_MMT :User details section Close
+2022-02-20 23:24:17,919 :INFO :Test_MMT :Hindi Alert Close
+2022-02-20 23:24:19,112 :INFO :Test_MMT :Flights link clicked
+2022-02-20 23:24:19,661 :INFO :Test_MMT :Hotels link clicked
+2022-02-20 23:24:19,957 :INFO :Test_MMT :Homestays link clicked
+2022-02-20 23:24:20,315 :INFO :Test_MMT :Holiday Packages link clicked
+2022-02-20 23:24:20,477 :INFO :Test_MMT :Trains link clicked
+2022-02-20 23:24:20,784 :INFO :Test_MMT :Buses link clicked
+2022-02-20 23:24:21,368 :INFO :Test_MMT :Cabs link clicked
+2022-02-20 23:24:21,511 :INFO :Test_MMT :Visa link clicked
+2022-02-20 23:24:21,840 :INFO :Test_MMT :Charter Flights link clicked
+2022-02-20 23:24:22,011 :INFO :Test_MMT :Activities link clicked
+2022-02-20 23:24:22,011 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-02-20 23:24:24,657 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-02-20 23:24:24,720 :INFO :Test_Flight :Flight FROM section is appearing
+2022-02-20 23:24:24,767 :INFO :Test_Flight :Flight TO section is appearing
+2022-02-20 23:24:27,668 :INFO :Test_Flight :New Delhi is selected
+2022-02-20 23:24:27,668 :INFO :Test_Flight :Verifying flight TO drop down....
+2022-02-20 23:24:30,980 :INFO :Test_Flight :Mumbai is selected
+2022-02-20 23:24:30,980 :INFO :Test_Flight :Mumbai is selected
+2022-02-20 23:25:18,553 :INFO :Test_Flight :User routed on search results page
+2022-02-20 23:25:18,600 :INFO :Test_Flight :24 Flights found 
+2022-02-20 23:25:25,716 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-02-20 23:25:26,752 :INFO :Test_Activites :Activity More link exist
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Charter Flights Exist in drop down
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Activities Exist in drop down
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Trip Ideas Exist in drop down
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Giftcards Exist in drop down
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Nearby Getaways Exist in drop down
+2022-02-20 23:25:28,152 :INFO :Test_Activites :Trip Money Exist in drop down
+2022-02-20 23:48:59,092 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-20 23:49:14,961 :INFO :Test_MMT :User details section Close
+2022-02-20 23:49:16,094 :INFO :Test_MMT :Hindi Alert Close
+2022-02-20 23:49:16,399 :INFO :Test_MMT :Flights link clicked
+2022-02-20 23:49:16,806 :INFO :Test_MMT :Hotels link clicked
+2022-02-20 23:49:17,155 :INFO :Test_MMT :Homestays link clicked
+2022-02-20 23:49:17,559 :INFO :Test_MMT :Holiday Packages link clicked
+2022-02-20 23:49:17,927 :INFO :Test_MMT :Trains link clicked
+2022-02-20 23:49:18,346 :INFO :Test_MMT :Buses link clicked
+2022-02-20 23:49:18,552 :INFO :Test_MMT :Cabs link clicked
+2022-02-20 23:49:18,822 :INFO :Test_MMT :Visa link clicked
+2022-02-20 23:49:18,970 :INFO :Test_MMT :Charter Flights link clicked
+2022-02-20 23:49:19,108 :INFO :Test_MMT :Activities link clicked
+2022-02-20 23:49:19,108 :INFO :Test_MMT :Successfully Clicked on All links 
+2022-02-20 23:49:21,739 :INFO :Test_Flight :One Way Radio Button is default selected
+2022-02-20 23:49:21,770 :INFO :Test_Flight :Flight FROM section is appearing
+2022-02-20 23:49:21,802 :INFO :Test_Flight :Flight TO section is appearing
+2022-02-20 23:49:23,503 :INFO :Test_Flight :New Delhi is selected
+2022-02-20 23:49:23,504 :INFO :Test_Flight :Verifying flight TO drop down....
+2022-02-20 23:49:26,817 :INFO :Test_Flight :Mumbai is selected
+2022-02-20 23:49:26,818 :INFO :Test_Flight :Mumbai is selected
+2022-02-20 23:49:59,808 :INFO :Test_Flight :User routed on search results page
+2022-02-20 23:49:59,839 :INFO :Test_Flight :24 Flights found 
+2022-02-20 23:50:05,832 :INFO :Test_Activites :::::::::::::::Verifying Activites tab::::::::::::::::::::::::::
+2022-02-20 23:50:06,737 :INFO :Test_Activites :Activity More link exist
+2022-02-20 23:50:07,613 :INFO :Test_Activites :Charter Flights Exist in drop down
+2022-02-20 23:50:07,614 :INFO :Test_Activites :Activities Exist in drop down
+2022-02-20 23:50:07,614 :INFO :Test_Activites :Trip Ideas Exist in drop down
+2022-02-20 23:50:07,614 :INFO :Test_Activites :Giftcards Exist in drop down
+2022-02-20 23:50:07,615 :INFO :Test_Activites :Nearby Getaways Exist in drop down
+2022-02-20 23:50:07,615 :INFO :Test_Activites :Trip Money Exist in drop down
+2022-02-20 23:53:33,275 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-20 23:53:46,507 :INFO :Test_MMT :User details section Close
+2022-02-20 23:53:47,668 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:00:05,292 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:00:19,016 :INFO :Test_MMT :User details section Close
+2022-02-21 00:00:20,157 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:02:06,212 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:02:22,224 :INFO :Test_MMT :User details section Close
+2022-02-21 00:02:23,380 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:07:44,303 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:07:58,114 :INFO :Test_MMT :User details section Close
+2022-02-21 00:08:22,642 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:34:07,001 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:34:23,261 :INFO :Test_MMT :User details section Close
+2022-02-21 00:34:24,433 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:34:27,730 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:35:42,386 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:35:56,456 :INFO :Test_MMT :User details section Close
+2022-02-21 00:36:20,851 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:36:22,503 :INFO :Test_HolidayPackages :Current window handle is :
+2022-02-21 00:36:22,505 :INFO :Test_HolidayPackages :CDwindow-EDD630C6C520BC3A2E9BEF0D8BB5C959
+2022-02-21 00:40:30,771 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:40:48,857 :INFO :Test_MMT :User details section Close
+2022-02-21 00:40:49,987 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:40:53,241 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:40:54,862 :INFO :Test_HolidayPackages :Current window handle is :
+2022-02-21 00:40:54,862 :INFO :Test_HolidayPackages :CDwindow-75F654249FBF8B33DEE35EF978A0B3FD
+2022-02-21 00:40:54,934 :INFO :Test_HolidayPackages :All Window Handles are :
+2022-02-21 00:40:54,934 :INFO :Test_HolidayPackages :['CDwindow-75F654249FBF8B33DEE35EF978A0B3FD', 'CDwindow-ADAFABED65A5104446D15A3C5434A274']
+2022-02-21 00:46:12,036 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:46:25,662 :INFO :Test_MMT :User details section Close
+2022-02-21 00:46:26,827 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:46:30,039 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:46:31,117 :INFO :Test_HolidayPackages :Current window handle is :
+2022-02-21 00:46:31,118 :INFO :Test_HolidayPackages :CDwindow-7603E8BB15FD2AED0AED58A3D32E1AAD
+2022-02-21 00:46:31,132 :INFO :Test_HolidayPackages :All Window Handles are :
+2022-02-21 00:46:31,133 :INFO :Test_HolidayPackages :['CDwindow-7603E8BB15FD2AED0AED58A3D32E1AAD', 'CDwindow-8EB811F9E110F5344BEE17C56BF4CB43']
+2022-02-21 00:47:20,040 :INFO :Test_MMT :Web Url is : https://www.makemytrip.com/
+2022-02-21 00:47:37,697 :INFO :Test_MMT :User details section Close
+2022-02-21 00:47:38,829 :INFO :Test_MMT :Hindi Alert Close
+2022-02-21 00:47:42,078 :INFO :Test_HolidayPackages ::::::::HolidayPackages Tab clicked successfully::::
+2022-02-21 00:47:43,438 :INFO :Test_HolidayPackages :Current window handle is :
+2022-02-21 00:47:43,438 :INFO :Test_HolidayPackages :CDwindow-A5F83ECBFA4FEF9D3493D5439FCBF2F0
+2022-02-21 00:47:43,597 :INFO :Test_HolidayPackages :All Window Handles are :
+2022-02-21 00:47:43,598 :INFO :Test_HolidayPackages :['CDwindow-A5F83ECBFA4FEF9D3493D5439FCBF2F0', 'CDwindow-E03524D92A322714134A23E5276E891E']
+2022-02-21 00:47:43,617 :INFO :Test_HolidayPackages :Current window handle is :
+2022-02-21 00:47:43,617 :INFO :Test_HolidayPackages :CDwindow-E03524D92A322714134A23E5276E891E

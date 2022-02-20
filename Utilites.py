@@ -32,3 +32,14 @@ def webelementclick(driver,a):
 def CurrentURL(driver):
     CurrentURl = driver.current_url
     return CurrentURl
+
+def currentwindowhandle (driver):
+    currentwindow = driver.current_window_handle
+    return currentwindow
+
+def AllWindowHandles (driver):
+    Allwindow = driver.window_handles
+    return Allwindow
+
+def SwitchWindow (driver,windowid):
+    driver.switch_to.window(windowid)

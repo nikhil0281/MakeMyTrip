@@ -18,3 +18,6 @@ class Test_AllElementsPath:
     Activity_Tab_Keyword = (By.XPATH,"//a[@href='https://www.makemytrip.com/activities/']")
     Activity_More_keyword = (By.XPATH,"//span[@class='arrow arrowDown']")
     Activity_List_Keyword = (By.XPATH,"//a[@class='appendBottom5 blackText']")
+    Holiday_Package_Keyword = (By.XPATH,"//a[@href='https://www.makemytrip.com/holidays-india/']")
+    HP_Destinations_Keyword = (By.XPATH,"//span[contains(text(),'Destinations')]")
+    HP_Destinations_Goa_Keyword = (By.XPATH,"//ul[@class='hdlRegion__citylist']//a[contains(text(),'Goa')]")

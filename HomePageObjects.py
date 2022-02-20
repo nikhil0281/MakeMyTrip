@@ -67,6 +67,14 @@ class Test_HomePage(Test_AllElementsPath):
     def ActivitesList(self):
         return self.driver.find_elements(*self.Activity_List_Keyword)
 
+    def HolidayPackageTab(self):
+        return self.driver.find_element(*self.Holiday_Package_Keyword)
+
+    def HPDestinations(self):
+        return  self.driver.find_element(*self.HP_Destinations_Keyword)
+
+    def HPDestinationGoa(self):
+        return self.driver.find_element(*self.HP_Destinations_Goa_Keyword)
 
 
 
